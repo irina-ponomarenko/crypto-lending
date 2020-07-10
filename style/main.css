@@ -703,6 +703,7 @@ body{
 	width: 170px;
 	height: 48px;
 	margin-left: 30px;
+	border: none;
 }
 
 .copy-btn:hover{
@@ -756,4 +757,12 @@ body{
 
 .about-game{
 	width: 70%;
+}
+
+.link-title{
+	color: #FFFFFF;
+	font-weight: 400;
+	font-family: 'Roboto';
+	font-size: 40px;
+	margin-bottom: 40px;
 }
