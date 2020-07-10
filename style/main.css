@@ -84,15 +84,14 @@
 }
 
 body{
-	background: #F2F2F2;
+	background: #D7E2FC;
 }
 
 
 /*----------------header style------------------*/
 
 .logo{
-	background: url(../image/logo.svg)no-repeat;
-	display: block;
+	display: flex;
 	width: 116px;
 	height: 48px;
 }
@@ -104,6 +103,7 @@ body{
     width: 100%;
     flex-direction: column;
     position: relative;
+	z-index: 10;
 }
 
 .content-header{
@@ -383,7 +383,7 @@ body{
 .card-title{
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 350;
+	font-weight: 400;
 	font-size: 23px;
 	color: #333333;
 }
@@ -405,18 +405,7 @@ body{
 	width: 100%;
 	position: relative;
 	padding-bottom: 140px;
-}
-
-.second-section:before{
-	content: '';
-	position: absolute;
-	top: -189px;
-	background: url("../image/light-wave.png")repeat-x;
-	background-size: contain;
-	background-position: 50%;
-	left: 0;
-	right: 0;
-	height: 189px;
+	margin-top: 260px;
 }
 
 .chart-container{
@@ -455,12 +444,11 @@ body{
 .list-statistic{
 	display: flex;
     flex-wrap: wrap;
-    max-width: 425px;
 }
 
 .item-statistic{
 	max-width: 150px;
-	margin: 20px 30px;
+	margin: 20px;
 	text-align: center;
 }
 
@@ -483,7 +471,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 23px;
-    color: #333333;
+    color: #ffffff;
     margin-top: 15px;
 }
 
@@ -695,7 +683,7 @@ body{
 }
 
 .level-done td{
-	background-color: #728CF7;
+	background-color: #E17094;
 }
 
 .table-lider{
@@ -780,4 +768,53 @@ body{
 
 .copy-btn:hover{
 	background: linear-gradient(180deg, #F19DAF 0%,  #D05D84 100%);
+}
+
+.summa-level{
+	max-width: 187px;
+}
+
+.summa-level .number-level{
+	font-size: 38px;
+}
+
+.summa-ref{
+	font-size: 31px;
+}
+
+.footer-summa{
+	text-align: center;
+}
+
+.left-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-block{
+	background: linear-gradient(180deg, #131C2D 0%, #1E2940 100%);
+	width: 100%;
+}
+
+.content-footer{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-game p,
+.year{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+.about-game{
+	width: 70%;
 }
