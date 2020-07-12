@@ -1,0 +1,882 @@
+@media screen and (max-width: 1600px)  {
+
+	.container-header::before{
+		bottom: -207px;
+		height: 216px;
+	}
+
+	.third-section::before{
+		top: -207px;
+		height: 216px;
+	}
+
+}
+
+@media screen and (max-width: 1480px)  {
+
+	.container-header::before{
+		bottom: -193px;
+		height: 195px;
+	}
+
+	.third-section::before{
+		top: -193px;
+		height: 195px;
+	}
+}
+
+@media screen and (max-width: 1440px)  {
+	.item-statistic {
+		max-width: 130px;
+		margin: 15px;
+	}
+
+	.title-chart,
+	.info-chart {
+		font-size: 20px;
+	}
+
+	.main-title{
+		font-size: 75px;
+		line-height: 78px;
+		max-width: 488px;
+	}
+
+	.main-text{
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+	.social-link {
+		width: 40px;
+		height: 40px;
+	}
+
+	.languages li a{
+		width: 45px;
+	}
+
+	.languages{
+		width: 47px;
+	}
+
+	.right-block img{
+		max-width: 570px;
+		width: 100%;
+	}
+
+	.container-header::before {
+		bottom: -186px;
+		height: 188px;
+	}
+
+	.third-section::before{
+		top: -186px;
+		height: 188px;
+	}
+
+	.title-block{
+		font-size: 50px;
+		line-height: 53px;
+	}
+
+	.sub-title-header{
+		margin-top: 20px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.title-referal{
+		max-width: 437px;
+		font-size: 31px;
+		line-height: 35px;
+	}
+
+	.referal-item {
+		border-radius: 25px;
+		width: 230px;
+		height: 230px;
+		padding: 25px;
+	}
+
+	.level span{
+		font-size: 16px;
+	}
+
+	.level .number-level,
+	.referal-percent {
+		font-size: 50px;
+	}
+
+	.summa-level span{
+		font-size: 14px;
+	}
+
+	.summa-level .number-level{
+		font-size: 30px;
+	}
+
+	.summa-ref{
+		font-size: 28px;
+	}
+
+	.level {
+		right: 24px;
+		top: 25px;
+	}
+
+	.table-lider tr th {
+		font-size: 18px;
+	}
+
+	.lider-block-container{
+		margin-right: 10px;
+	}
+
+	.container-referal-block{
+		margin-left: 10px;
+	}
+
+	.link-title{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	.link{
+		line-height: 23px;
+	}
+
+	.text-bonus {
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	.advantages-right img {
+		max-width: 590px;
+		width: 100%;
+	}
+
+	.content-footer{
+		padding: 30px 16px;
+	}
+
+	.about-game p, .year {
+		font-size: 16px;
+	}
+
+	.smart-btn{
+		width: 170px;
+		height: 42px;
+	}
+
+}
+
+
+@media screen and (max-width: 1363px)  {
+
+	.container-header::before {
+		bottom: -180px;
+		height: 182px;
+	}
+
+	.third-section::before{
+		top: -180px;
+		height: 182px;
+	}
+}
+
+@media screen and (max-width: 1323px)  {
+
+	.container-header::before {
+		bottom: -173px;
+		height: 174px;
+	}
+
+	.third-section::before{
+		top: -173px;
+		height: 174px;
+	}
+
+	.second-section{
+		margin-top: 200px;
+	}
+
+	.referal-link-block{
+		margin: 30px 15px;
+	}
+
+	.copy-btn {
+		font-size: 16px;
+		line-height: 16px;
+		border-radius: 22px;
+		width: 165px;
+		height: 44px;
+	}
+
+	.chart-container{
+		width: 140px;
+		height: 140px;
+	}
+
+	.title-chart, .info-chart {
+		font-size: 18px;
+	}
+
+	.table-lider tr th {
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 1277px)  {
+
+	.third-section::before {
+		top: -169px;
+		height: 171px;
+	}
+
+	.container-header::before {
+		bottom: -170px;
+		height: 171px;
+	}
+}
+
+@media screen and (max-width: 1266px)  {
+
+	.container-header::before {
+		bottom: -166px;
+		height: 168px;
+	}
+
+	.third-section::before{
+		top: -166px;
+		height: 168px;
+	}
+}
+
+
+@media screen and (max-width: 1242px)  {
+
+	.third-section::before {
+		top: -162px;
+		height: 165px;
+	}
+
+	.container-header::before {
+		bottom: -162px;
+		height: 165px;
+	}
+}
+
+@media screen and (max-width: 1209px)  {
+
+	.chart-container {
+		width: 130px;
+		height: 130px;
+	}
+
+	.item-statistic {
+		margin: 10px;
+	}
+}
+
+
+@media screen and (max-width: 1178px)  {
+
+	.third-section::before {
+		top: -155px;
+		height: 157px;
+	}
+
+	.container-header::before {
+		bottom: -155px;
+		height: 157px;
+	}
+
+}
+
+
+@media screen and (max-width: 1170px)  {
+
+	.item-statistic {
+		max-width: 120px;
+	}
+
+	.chart-container {
+		width: 120px;
+		height: 120px;
+	}
+
+	.title-chart, .info-chart {
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 1136px)  {
+
+	.container-header::before {
+		bottom: -149px;
+		height: 150px;
+	}
+
+	.third-section::before {
+		top: -149px;
+		height: 150px;
+	}
+
+	.second-section {
+		margin-top: 160px;
+	}
+
+	.title-advantages, .text-advantages{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.text-advantages {
+		font-size: 14px;
+	}
+
+	.advantages-icon,
+	.advantages-icon img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.advantages-right img {
+		max-width: 540px;
+		width: 100%;
+	}
+
+	.advantages-container {
+		padding: 40px 0;
+	}
+
+	.lider-block-container {
+		padding: 25px 15px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1128px)  {
+
+	.main-title {
+		font-size: 60px;
+		line-height: 60px;
+		max-width: 467px;
+	}
+
+	.chart-container {
+		width: 110px;
+		height: 110px;
+	}
+
+	.right-block img {
+		max-width: 550px;
+		width: 100%;
+	}
+
+	.container-header::before {
+		bottom: -140px;
+		height: 144px;
+	}
+
+	.third-section::before {
+		top: -140px;
+		height: 144px;
+	}
+
+}
+
+@media screen and (max-width: 1098px)  {
+
+	.chart-container {
+		width: 100px;
+		height: 100px;
+	}
+
+	.item-statistic {
+		max-width: 110px;
+	}
+
+	.second-block {
+		padding: 30px 0 100px;
+	}
+}
+
+@media screen and (max-width: 1063px)  {
+
+	.main-text {
+		font-size: 16px;
+		line-height: 17px;
+		max-width: 383px;
+	}
+
+	.main-title {
+		max-width: 397px;
+	}
+
+	.item-statistic {
+		max-width: 98px;
+	}
+
+	.referal-item {
+		width: 220px;
+		height: 220px;
+
+	}
+}
+
+@media screen and (max-width: 1040px)  {
+
+	.referal-item {
+		width: 216px;
+		height: 216px;
+	}
+
+	.advantages-container {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1024px)  {
+
+	.container-header::before {
+		bottom: -137px;
+		height: 148px;
+	}
+
+	.third-section::before {
+		top: -137px;
+		height: 148px;
+	}
+
+	.first-screen{
+		flex-direction: column-reverse;
+	}
+
+	.container-card{
+		flex-wrap: wrap;
+	}
+
+	.card{
+		margin: 15px;
+	}
+
+	.container-bonus{
+		flex-direction: column;
+	}
+
+	.advantages{
+		flex-direction: column-reverse;
+	}
+
+	.advantages-right{
+		margin-bottom: 25px;
+	}
+
+	.advantages-left {
+		width: 90%;
+		margin-right: 0;
+	}
+
+	.container-referal-block {
+		margin-left: 0;
+	}
+
+	.lider-block-container {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.container-referal-block {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+	.lider-block-container{
+		width: 70%;
+	}
+
+	.lider-block{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+}
+
+@media screen and (max-width: 962px)  {
+
+	.container-header::before {
+		bottom: -124px;
+		height: 127px;
+	}
+
+	.third-section::before {
+		top: -124px;
+		height: 127px;
+	}
+
+}
+
+@media screen and (max-width: 900px)  {
+
+	.container-header::before {
+		bottom: -115px;
+		height: 117px;
+	}
+
+	.third-section::before {
+		top: -115px;
+		height: 117px;
+	}
+}
+
+
+@media screen and (max-width: 867px)  {
+
+	.container-header::before {
+		bottom: -109px;
+		height: 112px;
+	}
+
+	.third-section::before {
+		top: -109px;
+		height: 112px;
+	}
+}
+
+@media screen and (max-width: 800px)  {
+
+	.container-header::before {
+		bottom: -103px;
+		height: 105px;
+	}
+
+	.third-section::before {
+		top: -103px;
+		height: 105px;
+	}
+
+	.second-section {
+		margin-top: 96px;
+	}
+
+	.second-block {
+		padding: 30px 0 50px;
+	}
+
+}
+
+@media screen and (max-width: 768px)  {
+
+	.container-header::before {
+		bottom: -94px;
+		height: 96px;
+	}
+
+	.third-section::before {
+		top: -94px;
+		height: 96px;
+	}
+}
+
+@media screen and (max-width: 700px)  {
+
+	.container-header::before {
+		bottom: -83px;
+		height: 89px;
+	}
+
+	.third-section::before {
+		top: -83px;
+		height: 89px;
+	}
+}
+
+@media screen and (max-width: 635px)  {
+
+	.second-card:nth-child(2n), .fourth-card:nth-child(2n) {
+		top: 0;
+	}
+
+	.copy-btn {
+		max-width: 450px;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.lider-block-container {
+		width: 93%;
+	}
+}
+
+@media screen and (max-width: 595px)  {
+
+	.first-screen{
+		padding-bottom: 40px;
+	}
+
+	.social-link {
+		width: 30px;
+		height: 30px;
+	}
+
+	.header-content{
+		padding: 15px 15px;
+	}
+
+	.smart-btn {
+		width: 150px;
+		height: 35px;
+		font-size: 14px;
+	}
+
+	.languages li a{
+		line-height: 30px;
+	}
+
+	.title-block {
+		font-size: 40px;
+		line-height: 41px;
+	}
+
+	.sub-title-header {
+		margin-top: 15px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+}
+
+@media screen and (max-width: 578px)  {
+	.container-header::before {
+		bottom: -70px;
+		height: 76px;
+	}
+
+	.third-section::before {
+		top: -70px;
+		height: 76px;
+	}
+
+	.third-section{
+		padding: 30px 0 40px;
+	}
+
+	.about-game p, .year {
+		font-size: 14px;
+	}
+
+	.about-game {
+		width: 100%;
+		margin: 0 15px;
+	}
+
+	.sub-title-header{
+		max-width: 430px;
+	}
+}
+
+@media screen and (max-width: 543px)  {
+
+	.referal-item {
+		width: 200px;
+		height: 200px;
+	}
+
+	.social-list {
+		margin-right: 15px;
+	}
+
+	.third-section {
+		padding: 30px 0 15px;
+	}
+}
+
+@media screen and (max-width: 537px)  {
+	.header-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header-content .logo{
+		margin-bottom: 15px;
+	}
+
+	.content-header{
+		width: 100%;
+		justify-content: space-between;
+	}
+
+}
+
+@media screen and (max-width: 511px)  {
+	.referal-item {
+		width: 180px;
+		height: 180px;
+		padding: 15px;
+	}
+
+	.footer-referal p{
+		max-width: 100px;
+	}
+
+	.level .number-level, .referal-percent {
+		font-size: 40px;
+	}
+
+	.summa-level .number-level{
+		font-size: 28px;
+	}
+
+	.level .number-level, .referal-percent{
+		font-size: 24px;
+	}
+
+	.level {
+		right: 11px;
+		top: 11px;
+	}
+}
+
+@media screen and (max-width: 487px)  {
+	.container-header::before {
+		bottom: -54px;
+		height: 63px;
+	}
+
+	.third-section::before {
+		top: -54px;
+		height: 63px;
+	}
+
+	.table-lider{
+		font-size: 14px;
+	}
+
+	.table-lider tr th {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 471px)  {
+	.item-statistic {
+		max-width: 145px;
+	}
+
+	.chart-container {
+		width: 136px;
+		height: 136px;
+	}
+
+	.list-statistic{
+		justify-content: center;
+	}
+
+	.main-title,
+	.main-text{
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 468px)  {
+	.referal-item {
+		width: 250px;
+		height: 250px;
+		padding: 25px;
+	}
+
+	.level .number-level, .referal-percent {
+		font-size: 55px;
+	}
+
+	.summa-level .number-level{
+		font-size: 35px;
+	}
+
+	.level {
+		right: 22px;
+		top: 22px;
+	}
+	.summa-ref{
+		font-size: 33px;
+	}
+
+	.footer-referal p {
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 430px)  {
+	.header-content{
+		max-height: 123px;
+	}
+
+	.social-list{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		right: 0;
+		z-index: 10000;
+		top: 130px;
+	}
+
+	.social-item {
+		margin: 7px 0;
+		border-radius: 100%;
+		-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+	}
+
+	.social-link {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+
+@media screen and (max-width: 375px)  {
+	.sub-title-header {
+		max-width: 320px;
+	}
+
+	.table-lider tr th {
+		font-size: 11px;
+	}
+
+	.text-bonus {
+		margin-top: 15px;
+		font-size: 14px;
+	}
+
+	.content-footer{
+		flex-direction: column;
+	}
+
+	.advantages-icon, .advantages-icon img {
+		width: 65px;
+		height: 65px;
+	}
+
+	.content-footer .logo{
+		margin-bottom: 15px;
+	}
+
+	.about-game p, .year {
+		text-align: center;
+	}
+
+	.about-game p{
+		margin-bottom: 15px;
+	}
+}
