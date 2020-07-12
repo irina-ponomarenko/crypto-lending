@@ -824,9 +824,11 @@
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		right: 0;
+		left: 0;
 		z-index: 10000;
 		top: 130px;
+		margin-right: 0;
+		margin-left: 10px;
 	}
 
 	.social-item {
