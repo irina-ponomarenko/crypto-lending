@@ -60,11 +60,6 @@
         width: 47px;
     }
 
-    .right-block img{
-        max-width: 570px;
-        width: 100%;
-    }
-
     .container-header::before {
         bottom: -186px;
         height: 188px;
@@ -170,22 +165,45 @@
     }
 
     .yesterday {
-        left: 144px;
-        top: 173px;
+        left: 112px;
+        top: 185px;
     }
 
     .today {
-        right: -123px;
-        top: 0px;
+        right: -146px;
+        top: 102px;
     }
 
     .tomorrow {
-        top: 164px;
-        right: 27px;
+        top: 138px;
+        right: -195px;
+    }
+
+    .percent{
+        font-size: 54px;
+        margin-bottom: 113px;
+    }
+
+    .name-day {
+        font-size: 28px;
     }
 
 }
 
+@media screen and (max-width: 1372px)  {
+    .yesterday {
+        left: 106px;
+        top: 176px;
+    }
+    .today {
+        right: -138px;
+        top: 98px;
+    }
+    .tomorrow {
+        top: 131px;
+        right: -179px;
+    }
+}
 
 @media screen and (max-width: 1363px)  {
 
@@ -198,6 +216,38 @@
         top: -180px;
         height: 182px;
     }
+}
+
+@media screen and (max-width: 1352px)  {
+    .yesterday {
+        left: 102px;
+        top: 176px;
+    }
+    .today {
+        right: -138px;
+        top: 91px;
+    }
+    .tomorrow {
+        top: 131px;
+        right: -172px;
+    }
+
+}
+
+@media screen and (max-width: 1336px)  {
+    .yesterday {
+        left: 99px;
+        top: 176px;
+    }
+    .today {
+        right: -129px;
+        top: 91px;
+    }
+    .tomorrow {
+        top: 131px;
+        right: -164px;
+    }
+
 }
 
 @media screen and (max-width: 1323px)  {
@@ -244,6 +294,45 @@
 
 }
 
+@media screen and (max-width: 1312px)  {
+    .name-day {
+        font-size: 25px;
+    }
+    .percent {
+        font-size: 51px;
+        margin-bottom: 106px;
+    }
+    .yesterday {
+        left: 105px;
+        top: 171px;
+    }
+    .today {
+        right: -142px;
+        top: 91px;
+    }
+    .tomorrow {
+        top: 127px;
+        right: -187px;
+    }
+
+}
+
+@media screen and (max-width: 1285px)  {
+    .yesterday {
+        left: 101px;
+        top: 163px;
+    }
+    .today {
+        right: -136px;
+        top: 91px;
+    }
+    .tomorrow {
+        top: 120px;
+        right: -178px;
+    }
+
+}
+
 @media screen and (max-width: 1277px)  {
 
     .third-section::before {
@@ -272,15 +361,19 @@
         top: -166px;
         height: 168px;
     }
-
-    .today{
-        right: -115px;
+    .today {
+        right: -133px;
+        top: 89px;
+    }
+    .tomorrow {
+        top: 116px;
+        right: -170px;
+    }
+    .yesterday {
+        left: 96px;
+        top: 163px;
     }
 
-    .tomorrow{
-        top: 166px;
-        right: 28px;
-    }
 }
 
 
@@ -295,6 +388,31 @@
         bottom: -162px;
         height: 165px;
     }
+    .yesterday {
+        left: 94px;
+        top: 157px;
+    }
+    .today {
+        right: -127px;
+        top: 83px;
+    }
+    .tomorrow {
+        top: 113px;
+        right: -161px;
+    }
+}
+
+@media screen and (max-width: 1228px)  {
+
+    .today {
+        right: -121px;
+        top: 83px;
+    }
+    .tomorrow {
+        top: 113px;
+        right: -155px;
+    }
+
 }
 
 @media screen and (max-width: 1209px)  {
@@ -307,8 +425,46 @@
     .item-statistic {
         margin: 10px;
     }
+
+    .today {
+        right: -116px;
+        top: 83px;
+    }
+
+    .yesterday {
+        left: 90px;
+        top: 151px;
+    }
+
+    .tomorrow {
+        top: 113px;
+        right: -146px;
+    }
 }
 
+@media screen and (max-width: 1192px)  {
+    .percent {
+        font-size: 49px;
+        margin-bottom: 92px;
+    }
+    .name-day {
+        font-size: 23px;
+    }
+    .yesterday {
+        left: 95px;
+        top: 151px;
+    }
+    .today {
+        right: -120px;
+        top: 83px;
+    }
+
+    .tomorrow {
+        top: 113px;
+        right: -161px;
+    }
+
+}
 
 @media screen and (max-width: 1178px)  {
 
@@ -338,6 +494,31 @@
 
     .title-chart, .info-chart {
         font-size: 16px;
+    }
+
+    .yesterday {
+        left: 90px;
+        top: 151px;
+    }
+    .tomorrow {
+        top: 113px;
+        right: -154px;
+    }
+    .today {
+        right: -115px;
+        top: 77px;
+    }
+    .tomorrow {
+        top: 108px;
+        right: -147px;
+    }
+
+}
+
+@media screen and (max-width: 1150px)  {
+    .yesterday {
+        left: 86px;
+        top: 145px;
     }
 
 }
@@ -417,16 +598,41 @@
         top: -140px;
         height: 144px;
     }
-
-    .item-list {
-        padding: 30px;
+    .yesterday {
+        left: 83px;
+        top: 145px;
     }
-
     .today {
-        right: -136px;
+        right: -108px;
+        top: 77px;
     }
     .tomorrow {
-        right: -3px;
+        top: 104px;
+        right: -137px;
+    }
+
+}
+
+@media screen and (max-width: 1112px)  {
+
+    .percent {
+        font-size: 44px;
+        margin-bottom: 88px;
+    }
+    .name-day {
+        font-size: 21px;
+    }
+    .yesterday {
+        left: 88px;
+        top: 145px;
+    }
+    .today {
+        right: -121px;
+        top: 77px;
+    }
+    .tomorrow {
+        top: 104px;
+        right: -159px;
     }
 
 }
@@ -445,6 +651,23 @@
     .second-block {
         padding: 30px 0 100px;
     }
+}
+
+@media screen and (max-width: 1068px)  {
+
+    .yesterday {
+        left: 84px;
+        top: 138px;
+    }
+    .today {
+        right: -110px;
+        top: 74px;
+    }
+    .tomorrow {
+        top: 99px;
+        right: -141px;
+    }
+
 }
 
 @media screen and (max-width: 1063px)  {
@@ -479,6 +702,19 @@
 
     .advantages-container {
         padding: 0;
+    }
+
+    .yesterday {
+        left: 80px;
+        top: 132px;
+    }
+    .today {
+        right: -104px;
+        top: 74px;
+    }
+    .tomorrow {
+        top: 96px;
+        right: -131px;
     }
 }
 
@@ -548,6 +784,33 @@
         justify-content: center;
     }
 
+    .right-block img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .right-block {
+        width: 60%;
+    }
+    .name-day {
+        font-size: 25px;
+    }
+    .percent {
+        font-size: 50px;
+        margin-bottom: 105px;
+    }
+    .yesterday {
+        left: 109px;
+        top: 179px;
+    }
+    .today {
+        right: -154px;
+        top: 97px;
+    }
+    .tomorrow {
+        top: 132px;
+        right: -204px;
+    }
+
 }
 
 @media screen and (max-width: 962px)  {
@@ -561,7 +824,22 @@
         top: -124px;
         height: 127px;
     }
+    .right-block {
+        width: 63%;
+    }
 
+}
+
+@media screen and (max-width: 932px)  {
+    .right-block {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 916px)  {
+    .right-block {
+        width: 67%;
+    }
 }
 
 @media screen and (max-width: 900px)  {
@@ -574,6 +852,10 @@
     .third-section::before {
         top: -115px;
         height: 117px;
+    }
+
+    .right-block {
+        width: 69%;
     }
 }
 
@@ -588,6 +870,16 @@
     .third-section::before {
         top: -109px;
         height: 112px;
+    }
+
+    .right-block {
+        width: 71%;
+    }
+}
+
+@media screen and (max-width: 836px)  {
+    .right-block {
+        width: 73%;
     }
 }
 
@@ -611,6 +903,16 @@
         padding: 30px 0 50px;
     }
 
+    .right-block {
+        width: 76%;
+    }
+
+}
+
+@media screen and (max-width: 776px)  {
+    .right-block {
+        width: 78%;
+    }
 }
 
 @media screen and (max-width: 768px)  {
@@ -624,6 +926,22 @@
         top: -94px;
         height: 96px;
     }
+
+    .right-block {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 732px)  {
+    .right-block {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width: 715px)  {
+    .right-block {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 700px)  {
@@ -636,6 +954,28 @@
     .third-section::before {
         top: -83px;
         height: 89px;
+    }
+    .right-block {
+        width: 87%;
+    }
+
+}
+
+@media screen and (max-width: 675px)  {
+    .right-block {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 660px)  {
+    .right-block {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 645px)  {
+    .right-block {
+        width: 95%;
     }
 }
 
@@ -657,7 +997,33 @@
     }
 }
 
-@media screen and (max-width: 595px)  {
+@media screen and (max-width: 623px)  {
+    .right-block {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 608px)  {
+    .right-block {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .tomorrow {
+        top: 126px;
+        right: -188px;
+    }
+    .today {
+        right: -144px;
+        top: 91px;
+    }
+    .yesterday {
+        left: 100px;
+        top: 169px;
+    }
+
+}
+
+@media screen and (max-width: 597px)  {
 
     .first-screen{
         padding-bottom: 40px;
@@ -692,6 +1058,17 @@
         font-size: 16px;
         line-height: 16px;
     }
+
+    .name-day {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 585px)  {
+    .percent {
+        font-size: 47px;
+        margin-bottom: 97px;
+    }
 }
 
 @media screen and (max-width: 578px)  {
@@ -720,6 +1097,36 @@
 
     .sub-title-header{
         max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 568px)  {
+    .yesterday {
+        left: 95px;
+        top: 157px;
+    }
+    .today {
+        right: -136px;
+        top: 86px;
+    }
+    .tomorrow {
+        top: 117px;
+        right: -172px;
+    }
+}
+
+@media screen and (max-width: 555px)  {
+    .yesterday {
+        left: 90px;
+        top: 152px;
+    }
+    .today {
+        right: -132px;
+        top: 83px;
+    }
+    .tomorrow {
+        top: 112px;
+        right: -162px;
     }
 }
 
@@ -754,49 +1161,52 @@
         width: 100%;
         justify-content: space-between;
     }
-
-    .today {
-        right: -125px;
-    }
-
     .yesterday {
-        left: 139px;
-        top: 164px;
+        left: 87px;
+        top: 146px;
     }
-
+    .today {
+        right: -120px;
+        top: 83px;
+    }
+    .percent {
+        font-size: 45px;
+        margin-bottom: 93px;
+    }
+    .name-day {
+        font-size: 22px;
+    }
+    .today {
+        right: -127px;
+        top: 83px;
+    }
     .tomorrow {
-        top: 158px;
-        right: 6px;
+        top: 110px;
+        right: -161px;
     }
 
 }
 
 @media screen and (max-width: 525px)  {
-    .item-list {
-        padding: 25px;
-    }
 
     .percent{
         font-size: 40px;
     }
 
     .name-day{
-        font-size: 16px;
+        font-size: 20px;
     }
-
     .yesterday {
-        left: 148px;
-        top: 170px;
+        left: 92px;
+        top: 146px;
     }
-
     .today {
-        right: -161px;
-        top: 16px;
+        right: -133px;
+        top: 83px;
     }
-
     .tomorrow {
-        top: 164px;
-        right: -56px;
+        top: 110px;
+        right: -178px;
     }
 }
 
@@ -827,21 +1237,38 @@
         right: 11px;
         top: 11px;
     }
-}
 
-@media screen and (max-width: 505px)  {
     .yesterday {
-        left: 140px;
-        top: 164px;
+        left: 87px;
+        top: 146px;
     }
 
     .today {
-        right: -148px;
+        right: -125px;
+        top: 77px;
     }
 
     .tomorrow {
-        top: 155px;
-        right: -45px;
+        top: 106px;
+        right: -161px;
+    }
+}
+
+@media screen and (max-width: 498px)  {
+    .yesterday {
+        left: 82px;
+        top: 137px;
+    }
+    .today {
+        right: -117px;
+        top: 73px;
+    }
+    .tomorrow {
+        top: 102px;
+        right: -155px;
+    }
+    .percent {
+        margin-bottom: 87px;
     }
 
 }
@@ -864,34 +1291,45 @@
     .table-lider tr th {
         font-size: 14px;
     }
-
-    .item-list {
-        padding: 20px;
+    .yesterday {
+        left: 79px;
+        top: 130px;
     }
 
     .today {
-        right: -155px;
+        right: -109px;
+        top: 73px;
     }
-
     .tomorrow {
-        right: -57px;
+        top: 98px;
+        right: -140px;
     }
 }
 
 
 @media screen and (max-width: 476px)  {
+    .percent {
+        margin-bottom: 79px;
+        font-size: 37px;
+    }
+
+    .name-day {
+        font-size: 18px;
+    }
+
     .yesterday {
-        left: 133px;
-        top: 156px;
+        left: 83px;
+        top: 130px;
     }
 
     .today {
-        right: -145px;
+        right: -119px;
+        top: 73px;
     }
 
     .tomorrow {
-        top: 151px;
-        right: -49px;
+        top: 98px;
+        right: -156px;
     }
 
 }
@@ -943,44 +1381,51 @@
     .footer-referal p {
         max-width: 100%;
     }
-
-    .item-list {
-        padding: 18px;
-    }
 }
 
 
 @media screen and (max-width: 455px)  {
-    .percent {
-        font-size: 37px;
-    }
-
-    .name-day {
-        font-size: 14px;
-    }
-
     .yesterday {
-        left: 128px;
-        top: 152px;
+        left: 77px;
+        top: 125px;
     }
 
     .today {
-        right: -143px;
+        right: -108px;
+        top: 69px;
     }
 
     .tomorrow {
-        top: 146px;
-        right: -56px;
+        top: 91px;
+        right: -139px;
     }
 
 }
 
-@media screen and (max-width: 445px)  {
-
-    .item-list {
-        padding: 16px;
+@media screen and (max-width: 447px)  {
+    .percent {
+        margin-bottom: 72px;
+        font-size: 34px;
     }
 
+
+}
+
+@media screen and (max-width: 436px)  {
+    .yesterday {
+        left: 71px;
+        top: 119px;
+    }
+
+    .today {
+        right: -102px;
+        top: 66px;
+    }
+
+    .tomorrow {
+        top: 89px;
+        right: -132px;
+    }
 }
 
 @media screen and (max-width: 431px)  {
@@ -1012,92 +1457,116 @@
         height: 40px;
     }
 
+}
+
+@media screen and (max-width: 425px)  {
+
     .yesterday {
-        left: 122px;
-        top: 144px;
+        left: 68px;
+        top: 115px;
     }
 
     .today {
-        right: -136px;
+        right: -94px;
+        top: 66px;
     }
 
     .tomorrow {
-        top: 139px;
-        right: -51px;
-    }
-
-}
-
-@media screen and (max-width: 420px)  {
-    .item-list {
-        padding: 14px;
+        top: 86px;
+        right: -121px;
     }
 }
 
 @media screen and (max-width: 415px)  {
     .yesterday {
-        left: 117px;
-        top: 138px;
+        left: 63px;
+        top: 111px;
     }
+
     .today {
-        right: -131px;
+        right: -85px;
+        top: 61px;
     }
 
     .tomorrow {
-        top: 133px;
-        right: -48px;
+        top: 81px;
+        right: -110px;
     }
+
 }
 
 
-@media screen and (max-width: 405px)  {
-    .item-list {
-        padding: 11px;
+@media screen and (max-width: 407px)  {
+    .name-day {
+        font-size: 16px;
     }
-}
 
-@media screen and (max-width: 395px)  {
+    .percent {
+        margin-bottom: 72px;
+        font-size: 31px;
+    }
 
     .yesterday {
-        left: 112px;
-        top: 132px;
+        left: 68px;
+        top: 111px;
     }
 
     .today {
-        right: -127px;
+        right: -99px;
+        top: 61px;
     }
 
     .tomorrow {
-        top: 127px;
-        right: -51px;
+        top: 81px;
+        right: -126px;
+    }
+
+}
+
+@media screen and (max-width: 396px)  {
+
+    .yesterday {
+        left: 64px;
+        top: 105px;
+    }
+
+    .today {
+        right: -91px;
+        top: 57px;
+    }
+
+    .tomorrow {
+        top: 78px;
+        right: -118px;
     }
 
 }
 
 @media screen and (max-width: 387px)  {
+    .percent {
+        margin-bottom: 63px;
+        font-size: 28px;
+    }
+
+    .name-day {
+        font-size: 14px;
+    }
 
     .yesterday {
-        left: 109px;
-        top: 127px;
+        left: 69px;
+        top: 105px;
     }
 
     .today {
-        right: -122px;
-        top: 13px;
+        right: -98px;
+        top: 57px;
     }
 
     .tomorrow {
-        top: 123px;
-        right: -45px;
+        top: 78px;
+        right: -135px;
     }
 
-}
-
-
-@media screen and (max-width: 379px)  {
-    .item-list {
-        padding: 9px;
-    }
 }
 
 @media screen and (max-width: 375px)  {
@@ -1134,98 +1603,73 @@
     .about-game p{
         margin-bottom: 15px;
     }
-}
 
-@media screen and (max-width: 371px)  {
     .yesterday {
-        left: 105px;
-        top: 123px;
+        left: 62px;
+        top: 101px;
     }
 
     .today {
-        right: -116px;
-        top: 13px;
+        right: -91px;
+        top: 54px;
     }
 
     .tomorrow {
-        top: 120px;
-        right: -45px;
+        top: 74px;
+        right: -121px;
     }
 }
 
-@media screen and (max-width: 366px)  {
-    .percent {
-        font-size: 35px;
+@media screen and (max-width: 360px)  {
+    .yesterday {
+        left: 59px;
+        top: 96px;
     }
 
     .today {
-        right: -120px;
-        top: 13px;
+        right: -85px;
+        top: 54px;
     }
 
     .tomorrow {
-        top: 120px;
-        right: -50px;
+        top: 71px;
+        right: -113px;
     }
 
-}
-
-@media screen and (max-width: 358px)  {
-    .item-list {
-        padding: 7px;
-    }
 }
 
 @media screen and (max-width: 353px)  {
-    .yesterday {
-        left: 101px;
-        top: 118px;
-    }
-
-    .today {
-        right: -116px;
-        top: 13px;
-    }
-
     .tomorrow {
-        top: 113px;
-        right: -50px;
+        top: 68px;
+        right: -108px;
     }
 }
 
-@media screen and (max-width: 345px)  {
-
-    .item-list {
-        padding: 5px;
-    }
-
-}
-
-@media screen and (max-width: 330px)  {
-    .item-list {
-        padding: 3px;
-    }
-
+@media screen and (max-width: 344px)  {
     .percent {
-        font-size: 32px;
+        margin-bottom: 54px;
+        font-size: 26px;
     }
 
     .name-day {
-        font-size: 12px;
+        font-size: 13px;
     }
+}
 
+
+@media screen and (max-width: 330px)  {
     .yesterday {
-        left: 99px;
-        top: 114px;
+        left: 54px;
+        top: 89px;
     }
 
     .today {
-        right: -122px;
-        top: 17px;
+        right: -76px;
+        top: 48px;
     }
 
     .tomorrow {
-        top: 111px;
-        right: -66px;
+        top: 63px;
+        right: -97px;
     }
 }

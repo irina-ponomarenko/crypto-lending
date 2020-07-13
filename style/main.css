@@ -840,6 +840,11 @@ body{
 
 .right-block{
 	position: relative;
+	width: 45%;
+}
+
+.right-block img{
+	width: 100%;
 }
 
 .day-list{
@@ -849,46 +854,41 @@ body{
 }
 
 .item-list{
-	padding: 40px;
 	border-radius: 100%;
 	text-align: center;
 	position: relative;
 }
 
-.yesterday{
-	left: 144px;
-	top: 173px;
-}
-
 .percent,
 .name-day{
-	font-size: 50px;
+	font-size: 59px;
 	color: #728CF7;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 }
 
+.percent{
+	margin-bottom: 127px;
+}
+
 .name-day{
-	font-size: 18px;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 
 .yesterday {
-	left: 169px;
-	top: 197px;
+	left: 107px;
+	top: 179px;
 }
 
 .today {
-	right: -165px;
-	top: 12px;
+	right: -130px;
+	top: 97px;
 }
 
 .tomorrow {
-	top: 191px;
-	right: -16px;
-}
+	top: 133px;
+	right: -179px;
 
-.today .percent,
-.today .name-day{
-	color: #de4173;
 }
