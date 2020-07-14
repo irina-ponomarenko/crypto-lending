@@ -1959,19 +1959,22 @@
         margin-bottom: 15px;
     }
     .yesterday {
-        left: 62px;
-        top: 104px;
+        left: 57px;
+        top: 100px;
     }
     .today {
         right: -92px;
         top: 42px;
     }
     .tomorrow {
-        right: -124px;
+        right: -130px;
         top: 67px;
     }
     .tomorrow .percent {
         margin-bottom: 81px;
+    }
+    .today .percent {
+        margin-bottom: 73px;
     }
 }
 
@@ -1999,8 +2002,8 @@
         font-size: 11px;
     }
     .tomorrow {
-        right: -131px;
-        top: 65px;
+        right: -141px;
+        top: 62px;
     }
     .tomorrow .percent {
         margin-bottom: 78px;
