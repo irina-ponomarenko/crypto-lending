@@ -165,43 +165,67 @@
     }
 
     .yesterday {
-        left: 112px;
-        top: 185px;
+        left: 105px;
+        top: 192px;
     }
 
     .today {
         right: -146px;
-        top: 102px;
+        top: 80px;
     }
 
     .tomorrow {
-        top: 138px;
-        right: -195px;
+        top: 121px;
+        right: -202px;
     }
 
     .percent{
-        font-size: 54px;
-        margin-bottom: 113px;
+        font-size: 43px;
+        margin-bottom: 121px;
     }
 
     .name-day {
         font-size: 28px;
     }
 
+    .today .percent {
+        margin-bottom: 130px;
+        font-size: 54px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 144px;
+    }
+
+    .tomorrow .name-day {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1380px)  {
+    .yesterday {
+        left: 96px;
+        top: 187px;
+    }
+    .tomorrow {
+        top: 116px;
+        right: -195px;
+    }
 }
 
 @media screen and (max-width: 1372px)  {
     .yesterday {
-        left: 106px;
-        top: 176px;
+        left: 95px;
+        top: 182px;
     }
     .today {
         right: -138px;
-        top: 98px;
+        top: 73px;
     }
     .tomorrow {
-        top: 131px;
-        right: -179px;
+        top: 114px;
+        right: -185px;
     }
 }
 
@@ -220,16 +244,24 @@
 
 @media screen and (max-width: 1352px)  {
     .yesterday {
-        left: 102px;
+        left: 103px;
         top: 176px;
     }
     .today {
-        right: -138px;
-        top: 91px;
+        right: -146px;
+        top: 71px;
     }
     .tomorrow {
-        top: 131px;
-        right: -172px;
+        top: 112px;
+        right: -200px;
+    }
+
+    .name-day {
+        font-size: 25px;
+    }
+
+    .tomorrow .name-day {
+        font-size: 23px;
     }
 
 }
@@ -240,12 +272,16 @@
         top: 176px;
     }
     .today {
-        right: -129px;
-        top: 91px;
+        right: -140px;
+        top: 70px;
     }
     .tomorrow {
-        top: 131px;
-        right: -164px;
+        top: 110px;
+        right: -191px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 136px;
     }
 
 }
@@ -299,36 +335,46 @@
         font-size: 25px;
     }
     .percent {
-        font-size: 51px;
-        margin-bottom: 106px;
+        font-size: 40px;
+        margin-bottom: 112px;
+
     }
     .yesterday {
-        left: 105px;
-        top: 171px;
+        left: 96px;
+        top: 176px;
     }
     .today {
         right: -142px;
-        top: 91px;
+        top: 69px;
     }
     .tomorrow {
-        top: 127px;
+        top: 110px;
         right: -187px;
+    }
+
+    .today .percent {
+        margin-bottom: 121px;
+        font-size: 52px;
     }
 
 }
 
 @media screen and (max-width: 1285px)  {
     .yesterday {
-        left: 101px;
-        top: 163px;
+        left: 102px;
+        top: 172px;
     }
     .today {
-        right: -136px;
-        top: 91px;
+        right: -146px;
+        top: 70px;
     }
     .tomorrow {
-        top: 120px;
-        right: -178px;
+        top: 108px;
+        right: -184px;
+    }
+
+    .name-day {
+        font-size: 23px;
     }
 
 }
@@ -363,15 +409,27 @@
     }
     .today {
         right: -133px;
-        top: 89px;
+        top: 69px;
     }
     .tomorrow {
-        top: 116px;
-        right: -170px;
+        top: 107px;
+        right: -189px;
     }
     .yesterday {
         left: 96px;
-        top: 163px;
+        top: 169px;
+    }
+
+    .today .percent {
+        margin-bottom: 115px;
+    }
+
+    .tomorrow .name-day {
+        font-size: 21px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 128px;
     }
 
 }
@@ -389,28 +447,28 @@
         height: 165px;
     }
     .yesterday {
-        left: 94px;
-        top: 157px;
+        left: 96px;
+        top: 165px;
     }
     .today {
-        right: -127px;
-        top: 83px;
+        right: -134px;
+        top: 68px;
     }
     .tomorrow {
-        top: 113px;
-        right: -161px;
+        top: 107px;
+        right: -180px;
     }
 }
 
 @media screen and (max-width: 1228px)  {
 
     .today {
-        right: -121px;
-        top: 83px;
+        right: -132px;
+        top: 64px;
     }
     .tomorrow {
-        top: 113px;
-        right: -155px;
+        top: 103px;
+        right: -177px;
     }
 
 }
@@ -427,41 +485,64 @@
     }
 
     .today {
-        right: -116px;
-        top: 83px;
+        right: -128px;
+        top: 66px;
     }
 
     .yesterday {
-        left: 90px;
-        top: 151px;
+        left: 93px;
+        top: 162px;
     }
 
     .tomorrow {
-        top: 113px;
-        right: -146px;
+        top: 102px;
+        right: -178px;
+    }
+
+    .percent {
+        font-size: 38px;
+        margin-bottom: 108px;
+    }
+
+    .today .percent {
+        margin-bottom: 112px;
+        font-size: 50px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 124px;
+    }
+
+    .tomorrow .name-day {
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width: 1192px)  {
-    .percent {
-        font-size: 49px;
-        margin-bottom: 92px;
-    }
-    .name-day {
-        font-size: 23px;
-    }
     .yesterday {
-        left: 95px;
-        top: 151px;
+        left: 89px;
+        top: 158px;
     }
     .today {
-        right: -120px;
-        top: 83px;
+        right: -137px;
+        top: 64px;
     }
 
     .tomorrow {
-        top: 113px;
-        right: -161px;
+        top: 99px;
+        right: -183px;
+    }
+
+    .today .percent {
+        font-size: 46px;
+    }
+
+    .percent {
+        font-size: 38px;
+        margin-bottom: 103px;
+    }
+    .name-day {
+        font-size: 21px;
     }
 
 }
@@ -498,19 +579,19 @@
 
     .yesterday {
         left: 90px;
-        top: 151px;
+        top: 156px;
     }
     .tomorrow {
         top: 113px;
         right: -154px;
     }
     .today {
-        right: -115px;
-        top: 77px;
+        right: -132px;
+        top: 63px;
     }
     .tomorrow {
-        top: 108px;
-        right: -147px;
+        top: 97px;
+        right: -182px;
     }
 
 }
@@ -567,6 +648,27 @@
         padding: 25px 15px;
     }
 
+    .percent {
+        font-size: 34px;
+    }
+
+    .yesterday {
+        left: 86px;
+        top: 152px;
+    }
+
+    .today .percent {
+        margin-bottom: 107px;
+
+    }
+
+    .tomorrow {
+        top: 96px;
+        right: -175px;
+    }
+    .tomorrow .name-day {
+        font-size: 18px;
+    }
 
 }
 
@@ -599,40 +701,51 @@
         height: 144px;
     }
     .yesterday {
-        left: 83px;
-        top: 145px;
+        left: 88px;
+        top: 151px;
     }
     .today {
-        right: -108px;
-        top: 77px;
+        right: -131px;
+        top: 65px;
     }
     .tomorrow {
-        top: 104px;
-        right: -137px;
+        top: 96px;
+        right: -188px;
+    }
+    .name-day {
+        font-size: 19px;
+    }
+
+    .percent {
+        margin-bottom: 100px;
+    }
+
+    .today .percent {
+        margin-bottom: 103px;
+        font-size: 42px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 118px;
+    }
+    .tomorrow .name-day {
+        font-size: 17px;
     }
 
 }
 
 @media screen and (max-width: 1112px)  {
 
-    .percent {
-        font-size: 44px;
-        margin-bottom: 88px;
-    }
-    .name-day {
-        font-size: 21px;
-    }
     .yesterday {
         left: 88px;
         top: 145px;
     }
     .today {
-        right: -121px;
-        top: 77px;
+        right: -131px;
+        top: 64px;
     }
     .tomorrow {
-        top: 104px;
-        right: -159px;
+        top: 94px;
+        right: -182px;
     }
 
 }
@@ -653,22 +766,23 @@
     }
 }
 
-@media screen and (max-width: 1068px)  {
-
+@media screen and (max-width: 1073px)  {
     .yesterday {
-        left: 84px;
-        top: 138px;
-    }
-    .today {
-        right: -110px;
-        top: 74px;
-    }
-    .tomorrow {
-        top: 99px;
-        right: -141px;
+        left: 88px;
+        top: 139px;
     }
 
+    .today {
+        right: -121px;
+        top: 58px;
+    }
+
+    .tomorrow {
+        top: 85px;
+        right: -170px;
+    }
 }
+
 
 @media screen and (max-width: 1063px)  {
 
@@ -706,15 +820,28 @@
 
     .yesterday {
         left: 80px;
-        top: 132px;
+        top: 138px;
     }
     .today {
-        right: -104px;
-        top: 74px;
+        right: -118px;
+        top: 59px;
     }
     .tomorrow {
-        top: 96px;
-        right: -131px;
+        top: 88px;
+        right: -166px;
+    }
+
+    .percent {
+        margin-bottom: 96px;
+    }
+
+    .today .percent {
+        margin-bottom: 98px;
+        font-size: 38px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 108px;
     }
 }
 
@@ -792,25 +919,81 @@
         width: 60%;
     }
     .name-day {
-        font-size: 25px;
+        font-size: 22px;
     }
     .percent {
-        font-size: 50px;
-        margin-bottom: 105px;
+        font-size: 38px;
+        margin-bottom: 126px;
     }
     .yesterday {
-        left: 109px;
-        top: 179px;
+        left: 113px;
+        top: 185px;
     }
     .today {
-        right: -154px;
-        top: 97px;
+        right: -174px;
+        top: 79px;
     }
     .tomorrow {
-        top: 132px;
-        right: -204px;
+        top: 121px;
+        right: -245px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 140px;
     }
 
+    .today .percent {
+        margin-bottom: 131px;
+        font-size: 47px;
+    }
+    .tomorrow .name-day {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 988px)  {
+    .yesterday {
+        left: 110px;
+        top: 176px;
+    }
+
+    .today {
+        right: -167px;
+        top: 72px;
+    }
+
+    .tomorrow {
+        top: 114px;
+        right: -230px;
+    }
+}
+
+@media screen and (max-width: 968px)  {
+    .percent {
+        margin-bottom: 118px;
+    }
+
+    .yesterday {
+        left: 104px;
+        top: 174px;
+    }
+
+    .today .percent {
+        margin-bottom: 125px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 132px;
+    }
+
+    .today {
+        right: -157px;
+    }
+
+    .tomorrow {
+        top: 113px;
+        right: -219px;
+    }
 }
 
 @media screen and (max-width: 962px)  {
@@ -828,11 +1011,43 @@
         width: 63%;
     }
 
+
+}
+
+@media screen and (max-width: 945px)  {
+    .yesterday {
+        left: 108px;
+        top: 181px;
+    }
+    .today {
+        right: -166px;
+        top: 78px;
+    }
+
+    .tomorrow {
+        top: 119px;
+        right: -231px;
+    }
 }
 
 @media screen and (max-width: 932px)  {
     .right-block {
         width: 65%;
+    }
+    .yesterday {
+        left: 108px;
+        top: 188px;
+    }
+    .today {
+        right: -173px;
+        top: 82px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 138px;
+    }
+    .tomorrow {
+        top: 120px;
+        right: -241px;
     }
 }
 
@@ -859,6 +1074,37 @@
     }
 }
 
+@media screen and (max-width: 897px)  {
+    .yesterday {
+        left: 113px;
+        top: 186px;
+    }
+    .percent {
+        margin-bottom: 128px;
+    }
+    .today {
+        right: -178px;
+        top: 77px;
+    }
+    .today .percent {
+        margin-bottom: 135px;
+    }
+    .tomorrow {
+        top: 120px;
+        right: -250px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 145px;
+    }
+
+}
+
+@media screen and (max-width: 880px)  {
+    .tomorrow {
+        top: 115px;
+        right: -242px;
+    }
+}
 
 @media screen and (max-width: 867px)  {
 
@@ -1009,17 +1255,29 @@
         padding: 0 10px;
     }
     .tomorrow {
-        top: 126px;
-        right: -188px;
+        top: 109px;
+        right: -223px;
     }
     .today {
-        right: -144px;
-        top: 91px;
+        right: -161px;
+        top: 72px;
     }
     .yesterday {
-        left: 100px;
-        top: 169px;
+        left: 105px;
+        top: 176px;
     }
+    .percent {
+        margin-bottom: 121px;
+    }
+
+    .today .percent {
+        margin-bottom: 128px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 140px;
+    }
+
 
 }
 
@@ -1064,10 +1322,42 @@
     }
 }
 
+@media screen and (max-width: 592px)  {
+    .yesterday {
+        left: 99px;
+        top: 168px;
+    }
+    .today {
+        right: -148px;
+        top: 72px;
+    }
+    .today .percent {
+        margin-bottom: 120px;
+    }
+    .tomorrow {
+        top: 109px;
+        right: -207px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 133px;
+    }
+}
+
 @media screen and (max-width: 585px)  {
     .percent {
-        font-size: 47px;
-        margin-bottom: 97px;
+        margin-bottom: 112px;
+    }
+    .today {
+        right: -148px;
+        top: 69px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 130px;
+    }
+
+    .tomorrow {
+        top: 105px;
+        right: -202px;
     }
 }
 
@@ -1100,33 +1390,60 @@
     }
 }
 
-@media screen and (max-width: 568px)  {
+@media screen and (max-width: 572px)  {
+    .name-day {
+        font-size: 21px;
+    }
     .yesterday {
-        left: 95px;
-        top: 157px;
+        left: 99px;
+        top: 163px;
     }
     .today {
-        right: -136px;
-        top: 86px;
+        right: -148px;
+        top: 66px;
     }
+}
+
+@media screen and (max-width: 564px)  {
+    .yesterday {
+        left: 99px;
+        top: 159px;
+    }
+    .today .percent {
+        margin-bottom: 114px;
+    }
+
+    .tomorrow .percent {
+        margin-bottom: 123px;
+    }
+
     .tomorrow {
-        top: 117px;
-        right: -172px;
+        top: 105px;
+        right: -197px;
     }
 }
 
 @media screen and (max-width: 555px)  {
     .yesterday {
-        left: 90px;
-        top: 152px;
+        left: 92px;
+        top: 155px;
+    }
+    .percent {
+        margin-bottom: 107px;
     }
     .today {
-        right: -132px;
-        top: 83px;
+        right: -133px;
+        top: 62px;
+    }
+    .today .percent {
+        margin-bottom: 111px;
     }
     .tomorrow {
-        top: 112px;
-        right: -162px;
+        top: 99px;
+        right: -178px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 119px;
     }
 }
 
@@ -1162,51 +1479,48 @@
         justify-content: space-between;
     }
     .yesterday {
-        left: 87px;
-        top: 146px;
-    }
-    .today {
-        right: -120px;
-        top: 83px;
+        left: 86px;
+        top: 152px;
     }
     .percent {
-        font-size: 45px;
-        margin-bottom: 93px;
-    }
-    .name-day {
-        font-size: 22px;
+        margin-bottom: 100px;
     }
     .today {
-        right: -127px;
-        top: 83px;
+        right: -123px;
+        top: 58px;
     }
     .tomorrow {
-        top: 110px;
-        right: -161px;
+        top: 96px;
+        right: -166px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 115px;
     }
 
 }
 
 @media screen and (max-width: 525px)  {
-
-    .percent{
-        font-size: 40px;
-    }
-
-    .name-day{
-        font-size: 20px;
+    .percent {
+        font-size: 34px;
     }
     .yesterday {
-        left: 92px;
-        top: 146px;
+        left: 90px;
+        top: 148px;
+    }
+    .today .percent {
+        font-size: 44px;
+        margin-bottom: 104px;
     }
     .today {
-        right: -133px;
-        top: 83px;
+        right: -130px;
+        top: 62px;
+    }
+    .name-day {
+        font-size: 19px;
     }
     .tomorrow {
-        top: 110px;
-        right: -178px;
+        top: 96px;
+        right: -174px;
     }
 }
 
@@ -1237,20 +1551,20 @@
         right: 11px;
         top: 11px;
     }
-
     .yesterday {
-        left: 87px;
-        top: 146px;
+        left: 86px;
+        top: 143px;
     }
-
     .today {
-        right: -125px;
-        top: 77px;
+        right: -130px;
+        top: 58px;
     }
-
+    .tomorrow .name-day {
+        font-size: 17px;
+    }
     .tomorrow {
-        top: 106px;
-        right: -161px;
+        top: 93px;
+        right: -172px;
     }
 }
 
@@ -1259,16 +1573,23 @@
         left: 82px;
         top: 137px;
     }
+    .percent {
+        margin-bottom: 96px;
+    }
     .today {
-        right: -117px;
-        top: 73px;
+        right: -120px;
+        top: 55px;
+    }
+    .today .percent {
+        font-size: 42px;
+        margin-bottom: 100px;
     }
     .tomorrow {
-        top: 102px;
-        right: -155px;
+        top: 86px;
+        right: -161px;
     }
-    .percent {
-        margin-bottom: 87px;
+    .tomorrow .percent {
+        margin-bottom: 110px;
     }
 
 }
@@ -1292,46 +1613,45 @@
         font-size: 14px;
     }
     .yesterday {
-        left: 79px;
-        top: 130px;
+        left: 78px;
+        top: 137px;
     }
-
+    .percent {
+        margin-bottom: 90px;
+    }
     .today {
-        right: -109px;
-        top: 73px;
+        right: -113px;
+        top: 55px;
+    }
+    .today .percent {
+        margin-bottom: 96px;
     }
     .tomorrow {
-        top: 98px;
-        right: -140px;
+        right: -152px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 106px;
     }
 }
 
 
 @media screen and (max-width: 476px)  {
-    .percent {
-        margin-bottom: 79px;
-        font-size: 37px;
-    }
-
-    .name-day {
-        font-size: 18px;
-    }
-
     .yesterday {
-        left: 83px;
+        left: 74px;
         top: 130px;
     }
-
     .today {
-        right: -119px;
-        top: 73px;
+        right: -110px;
     }
-
+    .today .percent {
+        margin-bottom: 92px;
+    }
     .tomorrow {
-        top: 98px;
-        right: -156px;
+        right: -143px;
     }
-
+    .tomorrow .percent {
+        margin-bottom: 101px;
+    }
 }
 
 @media screen and (max-width: 471px)  {
@@ -1383,48 +1703,72 @@
     }
 }
 
+@media screen and (max-width: 460px)  {
+    .tomorrow {
+        right: -139px;
+        top: 84px;
+    }
+    .today .percent {
+        font-size: 40px;
+        margin-bottom: 89px;
+    }
+    .today {
+        right: -103px;
+        top: 55px;
+    }
+    .percent {
+        font-size: 31px;
+    }
+}
 
-@media screen and (max-width: 455px)  {
+
+@media screen and (max-width: 450px)  {
+    .tomorrow .name-day {
+        font-size: 16px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 97px;
+    }
+    .tomorrow {
+        right: -147px;
+        top: 81px;
+    }
+    .name-day {
+        font-size: 17px;
+    }
     .yesterday {
-        left: 77px;
+        left: 74px;
         top: 125px;
     }
-
-    .today {
-        right: -108px;
-        top: 69px;
-    }
-
-    .tomorrow {
-        top: 91px;
-        right: -139px;
-    }
-
-}
-
-@media screen and (max-width: 447px)  {
     .percent {
-        margin-bottom: 72px;
-        font-size: 34px;
+        margin-bottom: 86px;
+    }
+    .today .percent {
+        font-size: 37px;
+    }
+    .today {
+        right: -111px;
+        top: 54px;
     }
 
-
 }
+
 
 @media screen and (max-width: 436px)  {
-    .yesterday {
-        left: 71px;
-        top: 119px;
-    }
-
-    .today {
-        right: -102px;
-        top: 66px;
-    }
-
     .tomorrow {
-        top: 89px;
-        right: -132px;
+        right: -140px;
+        top: 77px;
+    }
+    .today {
+        right: -103px;
+        top: 51px;
+    }
+    .today .percent {
+        margin-bottom: 87px;
+    }
+    .yesterday {
+        left: 69px;
+        top: 122px;
     }
 }
 
@@ -1461,110 +1805,121 @@
 
 @media screen and (max-width: 425px)  {
 
+    .name-day {
+        font-size: 15px;
+    }
+    .percent {
+        margin-bottom: 82px;
+        font-size: 27px;
+    }
     .yesterday {
-        left: 68px;
-        top: 115px;
+        left: 74px;
+        top: 122px;
     }
-
+    .today .percent {
+        margin-bottom: 84px;
+        font-size: 35px;
+    }
     .today {
-        right: -94px;
-        top: 66px;
+        right: -109px;
+        top: 51px;
     }
-
+    .tomorrow .name-day {
+        font-size: 14px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 93px;
+    }
     .tomorrow {
-        top: 86px;
-        right: -121px;
+        right: -149px;
+        top: 77px;
     }
 }
 
 @media screen and (max-width: 415px)  {
     .yesterday {
-        left: 63px;
-        top: 111px;
+        left: 68px;
+        top: 116px;
     }
-
     .today {
-        right: -85px;
-        top: 61px;
+        right: -103px;
+        top: 46px;
     }
-
     .tomorrow {
-        top: 81px;
-        right: -110px;
+        right: -137px;
+        top: 75px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 87px;
     }
 
 }
 
 
 @media screen and (max-width: 407px)  {
-    .name-day {
-        font-size: 16px;
-    }
-
     .percent {
-        margin-bottom: 72px;
-        font-size: 31px;
+        margin-bottom: 76px;
     }
-
     .yesterday {
-        left: 68px;
-        top: 111px;
+        left: 66px;
+        top: 113px;
     }
-
+    .today .percent {
+        margin-bottom: 81px;
+        font-size: 33px;
+    }
     .today {
-        right: -99px;
-        top: 61px;
+        right: -98px;
+        top: 46px;
     }
-
     .tomorrow {
-        top: 81px;
-        right: -126px;
+        right: -132px;
+        top: 71px;
     }
 
 }
 
 @media screen and (max-width: 396px)  {
-
-    .yesterday {
-        left: 64px;
-        top: 105px;
+    .tomorrow .name-day {
+        font-size: 13px;
     }
-
-    .today {
-        right: -91px;
-        top: 57px;
-    }
-
     .tomorrow {
-        top: 78px;
-        right: -118px;
+        right: -130px;
+        top: 71px;
+    }
+    .name-day {
+        font-size: 14px;
+    }
+    .yesterday {
+        left: 66px;
+        top: 110px;
+    }
+    .today {
+        right: -98px;
+        top: 44px;
+    }
+    .tomorrow {
+        right: -138px;
+        top: 71px;
     }
 
 }
 
 @media screen and (max-width: 387px)  {
     .percent {
-        margin-bottom: 63px;
-        font-size: 28px;
+        margin-bottom: 72px;
+        font-size: 25px;
     }
-
-    .name-day {
-        font-size: 14px;
+    .today .percent {
+        margin-bottom: 76px;
+        font-size: 31px;
     }
-
-    .yesterday {
-        left: 69px;
-        top: 105px;
-    }
-
-    .today {
-        right: -98px;
-        top: 57px;
-    }
-
     .tomorrow {
-        top: 78px;
-        right: -135px;
+        right: -130px;
+        top: 67px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 85px;
     }
 
 }
@@ -1603,73 +1958,114 @@
     .about-game p{
         margin-bottom: 15px;
     }
-
     .yesterday {
         left: 62px;
-        top: 101px;
+        top: 104px;
     }
-
     .today {
-        right: -91px;
-        top: 54px;
+        right: -92px;
+        top: 42px;
     }
-
     .tomorrow {
-        top: 74px;
-        right: -121px;
+        right: -124px;
+        top: 67px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 81px;
     }
 }
 
 @media screen and (max-width: 360px)  {
+    .name-day {
+        font-size: 12px;
+    }
+    .percent {
+        margin-bottom: 70px;
+        font-size: 24px;
+    }
     .yesterday {
-        left: 59px;
-        top: 96px;
+        left: 64px;
+        top: 99px;
     }
-
+    .today .percent {
+        margin-bottom: 72px;
+        font-size: 29px;
+    }
     .today {
-        right: -85px;
-        top: 54px;
+        right: -96px;
+        top: 42px;
     }
-
+    .tomorrow .name-day {
+        font-size: 11px;
+    }
     .tomorrow {
-        top: 71px;
-        right: -113px;
+        right: -131px;
+        top: 65px;
     }
-
+    .tomorrow .percent {
+        margin-bottom: 78px;
+    }
 }
 
 @media screen and (max-width: 353px)  {
+    .yesterday {
+        left: 58px;
+        top: 95px;
+    }
+    .today {
+        right: -93px;
+        top: 39px;
+    }
     .tomorrow {
-        top: 68px;
-        right: -108px;
+        right: -122px;
+        top: 60px;
     }
 }
 
-@media screen and (max-width: 344px)  {
-    .percent {
-        margin-bottom: 54px;
-        font-size: 26px;
+@media screen and (max-width: 336px)  {
+    .yesterday {
+        left: 58px;
+        top: 91px;
     }
-
-    .name-day {
-        font-size: 13px;
+    .percent {
+        margin-bottom: 65px;
+        font-size: 24px;
+    }
+    .today .percent {
+        margin-bottom: 66px;
+        font-size: 27px;
+    }
+    .today {
+        right: -86px;
+        top: 39px;
+    }
+    .tomorrow {
+        right: -115px;
+        top: 60px;
+    }
+    .tomorrow .percent {
+        margin-bottom: 70px;
     }
 }
 
 
 @media screen and (max-width: 330px)  {
     .yesterday {
-        left: 54px;
+        left: 52px;
         top: 89px;
     }
-
-    .today {
-        right: -76px;
-        top: 48px;
+    .percent {
+        margin-bottom: 60px;
     }
-
+    .today {
+        right: -78px;
+        top: 37px;
+    }
+    .today .percent {
+        margin-bottom: 62px;
+    }
     .tomorrow {
-        top: 63px;
-        right: -97px;
+        right: -103px;
+        top: 56px;
     }
 }

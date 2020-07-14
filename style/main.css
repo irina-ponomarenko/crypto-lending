@@ -68,6 +68,7 @@ body{
 	width: 57px;
     position: relative;
 	height: 44px;
+	z-index: 100;
 }
 .languages li {
     display: none;
@@ -861,7 +862,7 @@ body{
 
 .percent,
 .name-day{
-	font-size: 59px;
+	font-size: 45px;
 	color: #728CF7;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -869,7 +870,7 @@ body{
 }
 
 .percent{
-	margin-bottom: 127px;
+	margin-bottom: 129px;
 }
 
 .name-day{
@@ -878,17 +879,76 @@ body{
 }
 
 .yesterday {
-	left: 107px;
-	top: 179px;
+	left: 102px;
+	top: 195px;
 }
 
 .today {
-	right: -130px;
-	top: 97px;
+	right: -151px;
+	top: 80px;
+}
+
+.today .percent{
+	color: #f7728b;
+	margin-bottom: 137px;
+	font-size: 54px;
 }
 
 .tomorrow {
-	top: 133px;
-	right: -179px;
+	top: 123px;
+	top: 123px;
+	right: -205px;
 
 }
+
+.tomorrow .percent{
+	margin-bottom: 145px;
+}
+
+.tomorrow .name-day{
+	font-size: 25px;
+}
+
+.info{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+.tooltipe {
+	position: relative;
+	width: 100%;
+}
+
+.tooltipe .tooltiptexte {
+	display: block;
+	width: 80%;
+	background-color: #FFFFFF;
+	color: #ff2d2d;
+	border: 1px solid #ff2d2d;
+	font-size: 14px;
+	font-family: 'Roboto';
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 37%;
+	margin-left: -60px;
+	transition: opacity 0.3s;
+}
+
+.tooltipe .tooltiptexte::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ff2d2d transparent transparent transparent;
+}
+
