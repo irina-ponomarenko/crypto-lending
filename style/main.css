@@ -841,7 +841,7 @@ body{
 
 .right-block{
 	position: relative;
-	width: 45%;
+	width: 46%;
 }
 
 .right-block img{
@@ -874,7 +874,7 @@ body{
 }
 
 .name-day{
-	font-size: 30px;
+	font-size: 28px;
 	text-transform: uppercase;
 }
 
@@ -896,8 +896,7 @@ body{
 
 .tomorrow {
 	top: 123px;
-	top: 123px;
-	right: -205px;
+	right: -213px;
 
 }
 
